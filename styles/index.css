@@ -1,5 +1,12 @@
 
 
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
