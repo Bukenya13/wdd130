@@ -44,3 +44,6 @@ nav a {
     text-decoration: none;
     color: #333;
 }
+p {
+    padding: 0;
+}
