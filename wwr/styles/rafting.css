@@ -410,8 +410,10 @@
             text-decoration: none;
             font-weight: bold;
         }
-        .par-footer{
-            align-items: right;
-            text-align: left;
-        }
+.par-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+}
 
