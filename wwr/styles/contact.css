@@ -1,3 +1,71 @@
+.employees {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.team-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 700px) {
+  .team-members {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+.team-members figure {
+  margin: 0;
+  text-align: center;
+}
+
+.team-members img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007acc;
+}
+.employees {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.team-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.team-members figure {
+  margin: 0;
+}
+
+.team-members img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007acc;
+}
 /* Meet Our Team - Employee Images */
 
 .employees {
