@@ -278,20 +278,18 @@ footer .socialmedia {
 }
 
         footer img {
-            width: 32px;
             height: 32px;
             margin: 0 4px;
             border: 2px solid var(--secondary-color);
-        footer img {
+            border-radius: 50%;
             width: 32px;
-            height: 32px;
             margin: 0 4px;
             border: 2px solid var(--secondary-color);
             border-radius: 50%;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        }
+        
         .about-article {
             background-image: url('/wwr/images/rafting-hero.png');
             background-repeat: no-repeat;
