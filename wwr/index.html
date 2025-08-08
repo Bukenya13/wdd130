@@ -1,37 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Lawrence Bukenya's personal page for WDD 130">
-  <meta name="author" content="Lawrence Bukenya">
-  <title>Lawrence Bukenya / WDD 130</title>
-  <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience thrilling rafting adventures on Victoria Lake. Book guided tours, learn about river safety, and join our rafting community.">
+    <meta name="author" content="Pius Mukisa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Rapidis Rafting - Home</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="wwr/index.html">Rafting Website</a>
-      <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-    </nav>
-  </header>
-  <main>
-    <h1>Lawrence Bukenya / WDD 130</h1>
-    <img src="images/profile.jpg" alt="Lawrence Bukenya" width="200" height="200">
-    <p>Hello! My name is Lawrence Bukenya, a BYU student from Uganda. I recently joined university and I really enjoy this journey as I partake in my software development course. So far, the journey is so sweet. Looking forward to seeing my future change and putting an impact into my country and community. Travel the world and enjoy yourself!</p>
-    <p>My hobbies include: swimming, dancing, basketball, making friends, and making change.</p>
-  </main>
-  <aside>`z
-    <h2>Uganda</h2>
-    <img src="images/kampala.jpg" alt="Aerial view of Kampala city with hills and buildings">
-    <p>Kampala is the capital of Uganda, known for its hills, culture, and busy city life. It’s the country’s center for government, business, and history.</p>
-  </aside>
+    <header>
+        <div class="logo">
+            <img src="images/wrr-logo.jpg" alt="Rafting Company Logo" width="200" height="150">
+        </div>
 
-  <footer>
-    <p>© 2025 🌴Bukenya 🌴Lawrence🌴</p>
-    <p>Kampala, Uganda</p>
-    <p>Last Updated: 02/07/2025</p>
-  </footer>
+        <nav>
+            <ul class="container">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section with required image and heading -->
+        <div class="hero">
+            <h1>Rapidis Rafting</h1>
+            <article class="hero-content">
+                <img src="images/rafting4.jpg" alt="Group enjoying rafting adventure" width="500" height="300">
+                <p>Join us for an unforgettable rafting experience on Rapidis Rafting. As President Thomas S. Monson said, "Life is a journey, not a destination. We must continue on, even when the road ahead seems uncertain. We must finish strong."</p>
+            </article>
+        </div>
+
+        <!-- Newsletter section as required -->
+        <section class="home-newsletter">
+            <h2>Join Our Rafting Community</h2>
+            <form class="newsletter-form">
+                <label for="email">Subscribe to our newsletter:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Call to action grid section -->
+        <section class="home-grid">
+            <h2>Adventure Awaits You!</h2>
+            <div class="home-grid-layout">
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Exciting rafting moment" width="300" height="200">
+                    <figcaption>Experience the Thrill</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting5.jpg" alt="Family rafting adventure" width="300" height="200">
+                    <figcaption>Family Adventures</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Professional rafting guides" width="300" height="200">
+                    <figcaption>Expert Guides</figcaption>
+                </figure>
+            </div>
+            <div class="call-to-action">
+                <h3>Ready to Start Your Adventure?</h3>
+                <p>Book your rafting trip today and create memories that will last a lifetime.</p>
+                <a href="trips.html" class="action-button">View Our Trips</a>
+            </div>
+        </section>
+    </main>
+      
+    <footer>  
+        <nav class="sociallinks">
+           <p>&copy; 2025 Rapidis Rafting | Bukenya Lawrence Rafting. All rights reserved</p>
+            <a href="https://facebook.com">
+                <img src="images/facebook.jpg" alt="Facebook" width="100" height="40">
+            </a>        
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter" width="100" height="40">
+            </a>
+           
+        </nav>
+    </footer>
 </body>
 </html>
